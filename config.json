@@ -1,10 +1,10 @@
 {
   "routes":
   [
-    { "path": "/book", "method":"post", "callback": "book#bookCreate" },
-    { "path": "/book", "method":"get", "callback": "book#bookReadAll" },
-    { "path": "/book/:id", "method":"get", "callback": "book#bookRead" },
-    { "path": "/book/:id", "method":"put", "callback": "book#bookUpdate" },
-    { "path": "/book/:id", "method":"delete", "callback": "book#bookDelete" }
+    { "path": "/song", "method":"post", "callback": "song#songCreate" },
+    { "path": "/song", "method":"get", "callback": "song#songReadAll" },
+    { "path": "/song/:id", "method":"get", "callback": "song#songRead" },
+    { "path": "/song/:id", "method":"put", "callback": "song#songUpdate" },
+    { "path": "/song/:id/:rev", "method":"delete", "callback": "song#songDelete" }
   ]
 }

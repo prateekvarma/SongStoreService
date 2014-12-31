@@ -1,11 +1,11 @@
 {
-  "name": "BookService",
+  "name": "SongStoreService",
   "version": "0.1.0",
   "description": "",
   "framework": "mvc",
   "bodyParser": true,
   "main": "app.js",
-  "logfile" : "BookService.log",
+  "logfile" : "SongStoreService.log",
   "keywords": [
   ],
   "author": "",
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:throoze/SongStoreService.git"
   },
   "preferGlobal": false,
   "dependencies": {
-    "mongodb": ">=1.1.6"
+  	"cradle" : "0.6.9"
   },
-  "license":"",
+  "license":"GNU GPL",
   "private": true
 }

@@ -1,14 +1,10 @@
 {
   "routes":
   [
-    { "path": "/", "callback": "application#index" }
-  ],
-  "filters":
-  [
-  	 { "path": "/", "callback": "" }
-  ],
-  "websockets":
-  [
-  	{ "event": "", "callback": ""}
+    { "path": "/book", "method":"post", "callback": "book#bookCreate" },
+    { "path": "/book", "method":"get", "callback": "book#bookReadAll" },
+    { "path": "/book/:id", "method":"get", "callback": "book#bookRead" },
+    { "path": "/book/:id", "method":"put", "callback": "book#bookUpdate" },
+    { "path": "/book/:id", "method":"delete", "callback": "book#bookDelete" }
   ]
 }

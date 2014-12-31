@@ -1,11 +1,11 @@
 {
-  "name": "SongStoreService",
+  "name": "BookService",
   "version": "0.1.0",
   "description": "",
   "framework": "mvc",
   "bodyParser": true,
   "main": "app.js",
-  
+  "logfile" : "BookService.log",
   "keywords": [
   ],
   "author": "",
@@ -19,6 +19,7 @@
   },
   "preferGlobal": false,
   "dependencies": {
+    "mongodb": ">=1.1.6"
   },
   "license":"",
   "private": true
